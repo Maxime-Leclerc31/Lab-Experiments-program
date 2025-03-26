@@ -120,7 +120,7 @@ df_0.iloc[:, C2] = AV2_0 - df_0.iloc[:, C2]
 df_0.iloc[:, C3] = AV3_0 - df_0.iloc[:, C3]
 df_0.iloc[:, C4] = AV4_0 - df_0.iloc[:, C4]
 
-df_1.iloc[:, C1] = - AV1_1 + df_1.iloc[:, C1]
+df_1.iloc[:, C1] = AV1_1 - df_1.iloc[:, C1]
 df_1.iloc[:, C2] = - AV2_1 + df_1.iloc[:, C2]
 df_1.iloc[:, C3] = - AV3_1 + df_1.iloc[:, C3]
 df_1.iloc[:, C4] = - AV4_1 + df_1.iloc[:, C4]
